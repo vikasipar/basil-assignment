@@ -1,9 +1,8 @@
-import React from 'react';
 import Searchbar from './Searchbar';
 
 function Header() {
   return (
-    <header className='flex justify-between border border-black w-full h-20 py-4 px-8'>
+    <header className='flex justify-between w-full h-20 py-4 px-8'>
         <div>
             <h2 className='text-xl font-semibold'>All Orders</h2>
             <p className='text-xs text-[#377DFF]'>All Orders</p>

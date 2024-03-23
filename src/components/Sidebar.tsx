@@ -2,7 +2,7 @@ import React from 'react';
 
 function Sidebar() {
   return (
-    <div className='flex flex-col justify-start w-20 border border-black gap-16 h-full'>
+    <div className='flex flex-col justify-start w-20 gap-16 h-full'>
         <div className=''>
             <img className='w-fit mx-auto mt-6' src="../static/logo.png" alt="basil logo" />
         </div>
