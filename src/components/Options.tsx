@@ -1,11 +1,10 @@
-import React from 'react';
 import Searchbar from './Searchbar';
 
 function Options() {
   return (
     <div className='flex justify-between items-center w-auto p-4 border border-black'>
         <Searchbar/>
-        <div className='flex gap-3 items-center'>
+        <div className='flex gap-3 items-center mr-8'>
             <img src="../static/excel.png" alt="" />
             <img src="../static/pdf.png" alt="" />
         </div>
