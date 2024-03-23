@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Sidebar() {
   return (
     <div className='flex flex-col justify-start w-20 gap-16 h-full'>
